@@ -16,12 +16,12 @@ body{
 /*banner*/
 
 .Jac{
-       background-image: url("../images/jacquemuscover.jpg");
-       background-color:#f1f1f1;
-       background-repeat: no-repeat;
-       background-size:cover;
-       background-position: center;
-       position:relative;
+background-image: url("../images/jacquemuscover.jpg");
+background-color:#f1f1f1;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+position:relative;
 }
 
 .Simone{
@@ -56,7 +56,7 @@ h1{
 h2{
 	font-size:2rem;
 	font-weight:bold;
-        color: #323232;
+    color: #323232;
 	position: relative;
 	text-align: center;
 	margin:0.8%;
@@ -67,9 +67,9 @@ p{
 	padding:0.5em;
 	display:block;
 	margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 	text-align: center;
 }
 
@@ -195,15 +195,16 @@ div{
 
 /*Style the video banner*/
 .banner{
-      position: relative;
-      width:100%;
-      min-height:90vh;
-      display: flex;
-      align-items:center;
-      justify-content: center;
-      text-align: center;
-      margin: 25px 0px 20px 0px;
-      overflow: hidden;
+ position: relative;
+ width:100%;
+ min-height:90vh;
+ display: flex;
+ align-items:center;
+ justify-content: center;
+ text-align: center;
+ margin: 25px 0px 20px 0px;
+ overflow: hidden;
+ 
 }
 
 .banner h0{
@@ -314,6 +315,7 @@ form {
 	font-size: 1.3rem;
 	border-radius: 6px;
 	background-color: #e0e0e0;
+	box-shadow: 3px 4px #aeaeae;
   }
   
   
@@ -330,6 +332,7 @@ form {
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
+	box-shadow: 3px 4px #969696;
 	font-family: 'Roboto Slab', serif;
 	transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -359,6 +362,7 @@ form {
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
 	border-radius: 6px;
+	box-shadow: 3px 4px #aeaeae;
   }
 
   textarea:hover {
@@ -380,9 +384,12 @@ form {
 	font-size: 2rem;
   }
 
+ 
+
   
   input[type=Go]:hover {
 	opacity: 0.8;
+	box-shadow: 3px 4px #aeaeae;
   }
 
 @keyframes animname {
