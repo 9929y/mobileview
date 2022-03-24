@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<script src="https://kit.fontawesome.com/fc12f56c38.js" crossorigin="anonymous"></script>
+    <!-- Link to the font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Jil Sander</title>
+</head>
+<body>
+	<a class="skip" href="#main">Skip to Main Content</a>
+	<header>
+	 <!-- Nav is a sematic tag page that aids accessibility -->
+		<div class="navbar">
+		    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+			 
+			 <div class="navigation">
+			 <nav >
+			   <ul id="menulist">
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				 <li><a href = "index.html" >Overview</a></li>
+				 <li><a href = "jacqudesign.html">Jacquemus</a></li>
+				 <li><a href = "simonedesign.html">Simone Rocha</a></li>
+				 <li class="active"><a href = "jildesign.html">Jil Sander</a></li>
+				 <li><a href = "form.html" >Contact</a></li>
+				</ul>
+			 </nav>
+				<i class="fa-regular fa-rectangle-list" onclick="togglemenu()"></i>
+			</div>
+			 
+		
+	    
+		</div>
+	  
+
+	</header>
+    <div class="banner Jil animations">
+        
+		<h0>Jil Sander</h0>
+		
+	</div>
+	<main class=container id="main">
+		<h1 class="animations">Jil Sander</h1>
+	    <h2 >“less and luxe”</h2>
+		<div class="detailed">
+		<p> Jil Sander’s greatest achievement was “rekindling the relationship between professionalism and chic.” 
+            Creating a work uniform that was cosmopolitan and cool instead of secretarial pool dowdy was
+            what enabled her to elevate her company from its modest beginnings in the fashion hinterland of Hamburg, 
+            Germany, to a label favored by some of the world’s most powerful women.
+		</p>
+		<p>
+			Minimalism is integral to the Jil Sander brand. 
+            The Meiers have a command of that, but their instincts lean crafty; 
+            they like clothes with a human touch. 
+            That came across this season in the hand-crocheted overlays worn 
+            on top of slip dresses and in the way a shawl was tied voluptuously over the shoulders of a sleeveless tee. 
+            A pair of hourglass-y color-block sheaths were a surprise, a glimpse of a more carnal 
+            side that felt especially new in the context of Jil Sander. 
+            They could make for an intriguing line of inquiry.
+			The collection is enlivened by zingy shots of gold and yellow amid its neutrals: 
+            flat metallic leather boots that extend above the knee, a sunny dress that follows the line of the torso 
+            but flares gently below the hips.
+		</p>
+	    </div>
+		<div class="box">
+	     <div class="runway">
+		  <img src="images/jilsander1.jpeg" alt="Jil Sander spring womenswear: a long satin white dress"  />
+		  <img src="images/jilsander2.jpg" alt="Jil Sander spring womenswear: a denim tank top with leather bag"  />
+		  <img src="images/jilsander3.jpg" alt="Jil Sander spring womenswear: a oversized silk dress with black leather accessories" />
+		 </div>
+		 <div class="runway">
+		 <img src="images/jilsander4.jpg" alt="Jil Sander spring womenswear: a detailed shoot of the model with a black leather bag"  />
+         <img src="images/jilsander5.jpg" alt="Jil Sander spring womenswear: a organza suite with dark blue dress" />
+		 <img src="images/jilsander6.jpg" alt="Jil Sander spring womenswear: a white dress with black knits" />
+		 </div>
+		 <div class="runway">
+		 <img src="images/jilsander7.jpg" alt="Jil Sander spring womenswear: a yellow long dress without sleeves" />
+         <img src="images/jilsander8.jpg" alt="Jil Sander spring womenswear: a black trench coat with silver buttom"/>
+         <img src="images/jilsander9.jpg" alt="Jil Sander spring womenswear: a pleated dark green silk dress" />
+         </div>
+	    </div>
+	</main>
+
+	<footer>
+		<p>
+			Jil Sander &copy; 2021 Spring Ready-to-wear Collection
+		</p>
+	</footer>
+	
+	
+	<script>
+		var menulist = document.getElementById("menulist");
+		menulist.style.maxHeight = "0px";
+		function togglemenu(){
+			if(menulist.style.maxHeight == "0px")
+			 {
+				menulist.style.maxHeight = "200px";
+			 }
+			else
+			 {
+				menulist.style.maxHeight = "0px";
+			 }
+		}
+
+    </script>
+</body>
+</html>

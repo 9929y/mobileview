@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<script src="https://kit.fontawesome.com/fc12f56c38.js" crossorigin="anonymous"></script>
+    <!-- Link to the font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Simone Rocha</title>
+</head>
+<body>
+	<a class="skip" href="#main">Skip to Main Content</a>
+	<header>
+		<div class="navbar">
+		    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+			 
+			 <div class="navigation">
+			 <nav >
+			   <ul id="menulist">
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				 <li><a href = "index.html" >Overview</a></li>
+				 <li><a href = "jacqudesign.html">Jacquemus</a></li>
+				 <li class="active"><a href = "simonedesign.html">Simone Rocha</a></li>
+				 <li><a href = "jildesign.html">Jil Sander</a></li>
+				 <li><a href = "Form.html" >Contact</a></li>
+				</ul>
+			 </nav>
+				<i class="fa-regular fa-rectangle-list" onclick="togglemenu()"></i>
+			</div>
+			 
+		
+	    
+		</div>
+	</header>
+
+	<div class="banner Simone animations">
+        
+		<h0 class="animations">Simone Rocha</h0>
+		
+	</div>
+
+	<main class=container id="main">
+		<h1>Simone Rocha</h1>
+	    <h2>"Fantasy"</h2>
+		<div class="detailed">
+		<p>
+			“I was thinking about the Irish wren-boys, who go hunt and kill a wren on St. Stephen’s Day
+            in Ireland—punkish boys who go knocking on doors, kind of like trick-or-treaters,” said Simone Rocha. 
+            “So I wanted to bring that masculinity to the table but also turn and look into the houses 
+            of the people whose doors they knock on—at the Delft china, the tablecloths, the wallpaper.”
+		</p>
+		<p>
+			Come showtime one never has to hunt too far to feel the shadow of something dark among the prettiness
+            at Simone Rocha. On the surface this was truly one of her prettiest collections, 
+            what with its trapezoid volumes, sheer leg-o’-mutton sleeves, shirting smocks, 
+            and eyelet-edged cuffs. Lovely palette too: after the china prints came sugar pink,
+            dark red, and faded chintzy antique prints. 
+            Shown in the round—the stage of a flaking theater at Alexandra Palace—you caught the profiles of bubble dresses, 
+            new silhouettes ballooning outward to be gathered in at knee level.
+        </p>
+		<p>
+				The new ballooning silhouettes—kind indeed to womanly bodies—were nevertheless gleaned 
+				from a sinister thought: “the outline of the bird,” 
+				said Rocha. Once she said it, you saw: the profile of a bird's crop and tail, 
+				blown up, in motion.
+		</p>
+		</div>
+		<div class="box">
+		 <div class="runway">
+		 <img src="images/sr1.jpg" alt="SimoneRocha spring womenswear: haute couture - white organza suite with blue print "  />
+		 <img src="images/sr2.jpg" alt="SimoneRocha spring womenswear: haute couture - white organza dress with blue print" />
+		 <img src="images/sr3.jpg" alt="SimoneRocha spring womenswear: haute couture - white organza shirt dress " />
+		 </div>
+		 <div class="runway">
+		 <img src="images/sr4.jpg" alt="SimoneRocha spring womenswear: haute couture - white shirt dress with black pleated dress" />
+		 <img src="images/sr5.jpg" alt="SimoneRocha spring womenswear: haute couture - white shirt dress with black lace organza" />
+		 <img src="images/sr6.jpg" alt="SimoneRocha spring womenswear: haute couture - sand color shirt dress with silk pleates" />
+         </div>
+		 <div class="runway">
+			<img src="images/sr6.jpg" alt="SimoneRocha spring womenswear: haute couture - white shirt dress with black pleated dress" />
+			<img src="images/sr1.jpg" alt="SimoneRocha spring womenswear: haute couture - white shirt dress with black lace organza" />
+			<img src="images/sr4.jpg" alt="SimoneRocha spring womenswear: haute couture - sand color shirt dress with silk pleates" />
+		</div>
+	    </div>
+	</main>
+
+	<footer>
+		<p>
+			Simone Rrocha &copy; 2021 Spring Ready-to-wear Collection
+		</p>
+	</footer>
+</body>
+x
+<script>
+	var menulist = document.getElementById("menulist");
+	menulist.style.maxHeight = "0px";
+	function togglemenu(){
+		if(menulist.style.maxHeight == "0px")
+		 {
+			menulist.style.maxHeight = "200px";
+		 }
+		else
+		 {
+			menulist.style.maxHeight = "0px";
+		 }
+	}
+
+</script>
+</html>
+
+

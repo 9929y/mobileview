@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<script src="https://kit.fontawesome.com/fc12f56c38.js" crossorigin="anonymous"></script>
+    <!-- Link to the font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Jacquemus</title>
+</head>
+<body>
+	<!--Skip to Main Content-->
+	<!-- Header is a sematic tag page that aids readability -->
+	<header>
+		
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<div class="navbar">
+		    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+			 
+			 <div class="navigation">
+			 <nav >
+			   <ul id="menulist">
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				 <li><a href = "index.html" >Overview</a></li>
+				 <li class="active"><a href = "jacqudesign.html">Jacquemus</a></li>
+				 <li><a href = "simonedesign.html">Simone Rocha</a></li>
+				 <li><a href = "jildesign.html">Jil Sander</a></li>
+				 <li><a href = "form.html" >Contact</a></li>
+				</ul>
+			 </nav>
+				<i class="fa-regular fa-rectangle-list" onclick="togglemenu()"></i>
+			</div>
+			 
+		
+	    
+		</div>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+
+	
+	  
+
+	</header>
+	<div class="banner Jac animations">
+        
+		<h0 class="animations">Jacquemus</h0>
+		
+	</div>
+	<main class=container id="main">
+		<h1>Jacquemus</h1>
+	    <h2>"inclusivity of all"</h2>
+		<div class="detailed">
+		<p>
+			Not only was Simon Porte Jacquemus eager to return to the runway; he wanted to get back to traveling.
+	    </p>
+		<p>
+			In March, Porte Jacquemus had been in touch with the dancer Alexander Ekman, who came to the designer's studio on the eve of lockdown in France.
+			Needless to say, everything changed at that point, but the reference remained. During a pre-show interview, 
+			Porte Jacquemus said he wanted his collection to talk of love and celebration, “like a simple country wedding or a harvest festival.” With everyone cocooning at home, he wanted to create something “bubble-like” to represent the moment.
+        </p>
+		<p>    	
+			Ultimately, he named the collection “L'Amour,” a declaration of love for his team, and sprinkled it with Provençal references such as ceramics, a poem by Miro, a corner of a grandmother’s tablecloth, and a colander of cherries. 
+		</p>
+		<p>	
+			The show may have taken place in the great outdoors, but the clothes nodded to what we have all been experiencing inside.
+			“For me, the runway can't be a video. It's at the heart of what we do; 
+			it's not superficial. It's important to all of us to continue, 
+			just like a restaurant that reopens. It's like a movie of a summer day. It's our life.”
+			Despite complicated logistics, visually this show was a masterstroke. 
+			It addressed all of the issues dominating the fashion conversation in 2020 in terms of diversity, inclusivity, and apparent authenticity. 
+			Presciently, Porte Jacquemus last year had dialed down to two shows per year. But a live runway, he noted, can never be replaced.	
+		</p>
+		</div>
+	    <div class="box">
+		 <div class="runway">
+		  <img src="images/jacq1.jpg" alt="jaquemus menswear: light yellow suits with knots " />
+		  <img src="images/jacq2.jpg" alt="jaquemus womenswear: a long white slip dress" />
+		  <img src="images/jacq3.jpg" alt="jaquemus womenswear: a white shirt with long white jeans"  />
+		 </div>
+		 <div class="runway">
+		  <img src="images/jacq4.jpg" alt="jaquemus menswear: light yellow suits with knots and a pair of short pants"  />
+		  <img src="images/jacq5.jpg" alt="jaquemus womenswear: brown vest with long denim skirt" />
+		  <img src="images/jacq6.jpg" alt="jaquemus menswear: a dark grey mens suits"/>
+		 </div>
+		 <div class="runway">
+		  <img src="images/jacq7.jpg" alt="jaquemus womenswear: a pale white stretch long slip dress" />
+		  <img src="images/jacq8.jpg" alt="jaquemus womenswear: a shirt with checked box, an orange skirt"/>
+		  <img src="images/jacq9.jpg" alt="jaquemus menswear: a grey formal suit with white shirt"/>
+         </div>
+	    </div>
+
+	</main>
+
+	<footer>
+		<p>
+			Jacquemus &copy; 2021 Spring Menswear Collection
+		</p>
+	</footer>
+
+	
+	<script>
+		var menulist = document.getElementById("menulist");
+		menulist.style.maxHeight = "0px";
+		function togglemenu(){
+			if(menulist.style.maxHeight == "0px")
+			 {
+				menulist.style.maxHeight = "200px";
+			 }
+			else
+			 {
+				menulist.style.maxHeight = "0px";
+			 }
+		}
+
+    </script>
+</body>
+</html>
+
+
