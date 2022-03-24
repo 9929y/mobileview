@@ -207,7 +207,7 @@ div{
  
 }
 
-.banner h0{
+.banner h4{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 9rem;
 	padding: 20px;
@@ -494,7 +494,7 @@ a:visited{color:#575552}
 	.banner{
 		min-height:30vh;}
 
-	.banner h0{
+	.banner h4{
 		font-family: 'Shadows Into Light', cursive;
 		font-size: 3rem;
 		padding: 2px;
@@ -572,7 +572,7 @@ a:visited{color:#575552}
 	.banner{
 		min-height:60vh;}
 
-	.banner h0{
+	.banner h4{
 		font-family: 'Shadows Into Light', cursive;
 		font-size: 5rem;
 		padding: 8px;
