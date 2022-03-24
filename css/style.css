@@ -16,12 +16,12 @@ body{
 /*banner*/
 
 .Jac{
-background-image: url("../images/jacquemuscover.jpg");
-background-color:#f1f1f1;
-background-repeat: no-repeat;
-background-size:cover;
-background-position: center;
-position:relative;
+       background-image: url("../images/jacquemuscover.jpg");
+       background-color:#f1f1f1;
+       background-repeat: no-repeat;
+       background-size:cover;
+       background-position: center;
+       position:relative;
 }
 
 .Simone{
@@ -56,7 +56,7 @@ h1{
 h2{
 	font-size:2rem;
 	font-weight:bold;
-    color: #323232;
+        color: #323232;
 	position: relative;
 	text-align: center;
 	margin:0.8%;
@@ -67,9 +67,10 @@ p{
 	padding:0.5em;
 	display:block;
 	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+	text-align: center;
 }
 
 header, nav {
@@ -194,15 +195,15 @@ div{
 
 /*Style the video banner*/
 .banner{
- position: relative;
- width:100%;
- min-height:90vh;
- display: flex;
- align-items:center;
- justify-content: center;
- text-align: center;
- margin: 25px 0px 20px 0px;
- overflow: hidden;
+      position: relative;
+      width:100%;
+      min-height:90vh;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      text-align: center;
+      margin: 25px 0px 20px 0px;
+      overflow: hidden;
 }
 
 .banner h0{
