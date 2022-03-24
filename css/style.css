@@ -13,7 +13,7 @@ body{
 	height:100vh;
 }
 
-/*banner*/
+/*banner background*/
 
 .Jac{
 background-image: url("../images/jacquemuscover.jpg");
@@ -481,7 +481,6 @@ a:visited{color:#575552}
 		display: block;
 		size:120%;
 		padding-top: 10px;
-		opacity: 80%;
 	}
     
 
